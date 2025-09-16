@@ -1,0 +1,149 @@
+<html>
+ <head>
+  <title>
+   Profile Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .profile-pic {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        }
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            letter-spacing: 1.5px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .stat {
+            display: flex;
+            align-items: center;
+            margin: 0 10px;
+        }
+        .stat i {
+            margin-right: 5px;
+            color: #ff0000; /* Red color for the fire icon */
+        }
+        .stat .fire {
+            background-color: #ff5c00;
+            padding: 5px 10px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(255, 92, 0, 0.5);
+        }
+        .contact {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #fff;
+            font-size: 24px;
+            transition: transform 0.3s, color 0.3s;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            padding: 10px;
+        }
+        .social-icons a.github {
+            color: #333;
+        }
+        .social-icons a.github:hover {
+            color: #fff;
+            background-color: #333;
+        }
+        .social-icons a.instagram {
+            color: #E1306C;
+        }
+        .social-icons a.instagram:hover {
+            background-color: #E1306C;
+        }
+        .social-icons a.facebook {
+            color: #1877F2;
+        }
+        .social-icons a.facebook:hover {
+            background-color: #1877F2;
+        }
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+        .social-icons a.locket {
+            color: #E1306C;
+        }
+        .social-icons a.locket:hover {
+            background-color: #E1306C;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <img alt="AVT" class="profile-pic" height="120" src="../IMG/me.jpg" width="120"/>
+   <div class="name">
+    Trần Huỳnh Minh Nhật
+   </div>
+   <div class="stats">
+    <div class="stat fire">
+     <i class="fas fa-fire">
+     </i>
+    </div>
+   </div>
+   <div class="contact">
+    Contact: nhat16082005@gmail.com
+   </div>
+   <div class="social-icons">
+    <a class="github" href="https://github.com/MinhNhat1608" target="_blank">
+     <i class="fab fa-github">
+     </i>
+    </a>
+    <a class="instagram" href="https://www.instagram.com/minhnhat.1608/" target="_blank">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+    <a class="facebook" href="https://www.facebook.com/profile.php?id=100049646173086" target="_blank">
+     <i class="fab fa-facebook">
+     </i>
+    </a>
+    <a class="locket" href="https://locket.camera/invites/ijF8oj745kZe3Z5nTusj7mZTK5u2870f9d281b32d995?type=Link&variant=1002&social_title=Th%C3%AAm+t%C3%B4i+tr%C3%AAn+Locket+%F0%9F%92%9B&social_desc=T%C3%B4i+mu%E1%BB%91n+th%C3%AAm+b%E1%BA%A1n+v%C3%A0o+M%C3%A0n+h%C3%ACnh+ch%C3%ADnh+c%E1%BB%A7a+t%C3%B4i+qua+Locket.+Ch%E1%BA%A1m+v%C3%A0o+li%C3%AAn+k%E1%BA%BFt+%C4%91%E1%BB%83+ch%E1%BA%A5p+nh%E1%BA%ADn.&social_img=https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%252FijF8oj745kZe3Z5nTusj7mZTK5u2%252Fpublic%252Finvite_link_previews%252F1756956782.932435.png?alt%3Dmedia%26token%3D4fa15cf8-56e4-4b54-a715-6056ccd0f1e3&lang=vi" target="_blank">
+  <img src="../IMG/Locket.png" 
+       alt="Locket" 
+       style="width:30px; height:27px; border-radius:50%;">
+</a>
+
+   </div>
+  </div>
+ </body>
+</html>
